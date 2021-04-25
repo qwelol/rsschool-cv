@@ -6,6 +6,7 @@
 * Github: [qwelol](https://github.com/qwelol)
 * Phone: [+79537368357](tel:+79537368357)
 * Telegram: [@Alex_Here](https://t.me/Alex_Here)
+* Discord: NoFake#1717
 
 ## About me
 
@@ -76,13 +77,10 @@ app.listen(port, () => {
 ```
 
 ## Work experience
-* Wildlife (HTML5, CSS3)
-* Typical Arrays Problems (NodeJS)
-* JS: Brackets (NodeJS)
-* Towel Sort (NodeJS)
-* Reverse Int (NodeJS)
-* Human Readable Number (NodeJS)
-* Basic JS (NodeJS)
+* [Wildlife (HTML5, CSS3)](https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/wildlife/)
+* [Virtual piano (JS)](https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/virtual-piano/)
+* [Photo filter (JS)](https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/photo-filter/)
+* [Online zoo (HTML5, CSS3, JS)](https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/online-zoo/pages/landing/index.html)
 
 ## Education 
 
