@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta http-equiv="x-ua-compatible" content="ie=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="header">Alexey Kozhanov</h1>
+      <img class="avatar" src="img/avatar.jpg" alt="Alexey's avatar" >
+      <main>
+        <section>
+          <h2 class="header">Contacts</h2>
+          <ul>
+            <li>
+              <span>Email:</span>
+              <a class="link" href="mailto:nofakeboot@yandex.ru">nofakeboot@yandex.ru</a
+              >
+            </li>
+            <li>
+              <span>Github:</span>
+              <a class="link" href="https://github.com/qwelol" target="_blank">qwelol</a
+              >
+            </li>
+            <li>
+              <span>Phone:</span>
+              <a class="link" href="tel:+79537368357">+79537368357</a>
+            </li>
+            <li>
+              <span>Telegram:</span>
+              <a class="link" href="https://t.me/Alex_Here" target="_blank">@Alex_Here</a
+              >
+            </li>
+            <li>
+              <span>Discord:</span>
+              <span>NoFake#1717</span>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="header">About me</h2>
+          <p>
+            I am an active and sociable person. I enjoy learning and explore
+            something new. For the near future, my goal is to study JavaScript
+            more deeply.
+          </p>
+        </section>
+        <section>
+          <h2 class="header">Technical skills</h2>
+          <ul>
+            <li>Git</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Express</li>
+            <li>Mongoose</li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="header">Сode examples</h2>
+          <details>
+            <summary class="summary">HTML5</summary>
+            <pre>
+            &lt;!doctype html&gt;
+            &lt;html lang="en"&gt;
+             &lt;head&gt;
+              &lt;meta charset="utf-8"&gt;
+              &lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
+              &lt;title&gt;Page example&lt;/title&gt;
+              &lt;link rel="stylesheet" href="css/styles.css?v=1.0"&gt;
+             &lt;/head&gt;
+             &lt;body&gt;
+              &lt;p&gt;Page on HTML5&lt;/p&gt;
+             &lt;/body&gt;
+            &lt;/html&gt;
+          </pre
+            >
+          </details>
+          <details>
+            <summary class="summary">Express</summary>
+            <pre>
+            const express = require('express')
+            const app = express()
+            const port = 3000
+
+            app.get('/', (req, res) => {
+              res.send('Hello World!')
+            })
+
+            app.listen(port, () => {
+              console.log(`Example app listening at http://localhost:${port}`)
+            })  
+          </pre
+            >
+          </details>
+          <details>
+            <summary class="summary">Mongoose</summary>
+            <pre>
+            import mongoose from 'mongoose';
+            const { Schema } = mongoose;
+          
+            const blogSchema = new Schema({
+              title:  String,
+              author: String,
+              body:   String,
+              comments: [{ body: String, date: Date }],
+              date: { type: Date, default: Date.now }
+            });
+          }) 
+          </pre
+            >
+          </details>
+        </section>
+        <section>
+          <h2 class="header">Work experience</h2>
+          <ul>
+            <li>
+              <a href=
+              "https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/wildlife/" 
+              class="link">
+              Wildlife (HTML5, CSS3)</a>
+            </li>
+            <li>
+              <a href=
+              "https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/virtual-piano/"
+              class="link">
+              Virtual piano (JS)</a>
+            </li>
+            <li>
+              <a href=
+              "https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/photo-filter/"
+              class="link">
+              Photo filter (JS)</a>
+            </li>
+            <li>
+              <a href=
+              "https://rolling-scopes-school.github.io/qwelol-JSFE2021Q1/online-zoo/pages/landing/index.html"
+              class="link">
+              Online zoo (HTML5, CSS3, JS)</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="header">Education</h2>
+          <div class="highlited">
+            Bachelor of Informatics and computer engineering
+          </div>
+          <div class="important">
+            Ryazan State Radio Engineering University named after V.F. Utkin
+          </div>
+          <div>
+            <span class="highlited">Graduation:</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span class="highlited">Relevant Coursework:</span>
+            <span
+              >Operating Systems, Databases and Client-Server Applications, Web
+              programming, Programming technologies, Algorithms and data
+              structures</span
+            >
+          </div>
+        </section>
+        <section>
+          <h2 class="header">Languages</h2>
+          <ul>
+            <li>
+              <span class="highlited">English:</span>
+              <span>Pre-Intermediate</span>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <hr>
+      <div class="footer-content">
+        <div class="container">
+          <img class="gh-icon" src="img/fluidicon.png" alt="" >
+          <a class="link" href="https://github.com/qwelol" target="_blank">qwelol</a>
+        </div>
+        <span>2021</span>
+        <a href="https://rs.school/js/" target="_blank">
+          <img
+            class="rs-icon"
+            src="img/rs_school_js.svg"
+            alt="rs.school logo"
+          >
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
